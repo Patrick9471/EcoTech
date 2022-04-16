@@ -2261,6 +2261,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 991px) {
   #mobile-nav-toggle {
     display: inline;
+    margin-top: -12px;
   }
   #nav-menu-container {
     display: none;
@@ -2480,7 +2481,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-title h1 {
   margin-bottom: 10px;
 }
-
+/*------------------------------------------------------------------------------------- Start Banner Area ------------*/
 /*-------- Start Banner Area ------------*/
 .banner-area {
   background: url(../img/hero-bg.jpg) center;
@@ -2506,7 +2507,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .banner-left h1 {
   margin: 20px 0;
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
 }
 
@@ -2607,10 +2608,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   .banner-right {
     padding-bottom: 50px;
   }
+  .photo{
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 424px) {
+  .photo{
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 374px) {
+  .photo{
+    margin-left: 20px;
+    width: 250px;
+    height: 250px;
+  }
 }
 
 /*-------- End Banner Area ------------*/
-/*-------- start Popular-destination Area ------------*/
+/*----------------------------------------------------- Три блока ---------------------------------*/
 .single-destination {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2685,9 +2705,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-/*-------- end Popular-destination Area ------------*/
-/*-------- start price Area ------------*/
-.price-area {
+/*----------------------------------------------------- Три блока конец -------------------------------------*/
+
+
+/*--------------------------------------------------------- start price Area ------------*/
+/*.price-area {
   background: url(../img/price-bg.png);
   background-size: cover;
 }
@@ -2732,8 +2754,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-/*-------- end price Area ------------*/
-/*-------- start other-issue Area ------------*/
+/*--------------------------------------------------------------------------- end price Area ------------*/
+
+
+/*------------------------------------------------------------ start other-issue Area ------------*/
 .single-other-issue .thumb {
   overflow: hidden;
 }
@@ -2762,8 +2786,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: scale(1.08) rotate(-3deg);
 }
 
-/*-------- end other-issue Area ------------*/
-/*--------- start testimonial area  -------------*/
+/*----------------------------------------------------------------------------- end other-issue Area ------------*/
+
+
+/*------------------------------------------------------------------------- start testimonial area  -------------*/
 .testimonial-area {
   background-color: #f9f9ff;
 }
