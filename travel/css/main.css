@@ -54,6 +54,8 @@ $black			: #222;
   color: #fff;
 }
 
+
+
 ::selection {
   background-color: #f8b600;
   color: #fff;
@@ -344,6 +346,10 @@ td, th {
   margin-left: 0 !important;
 }
 
+.ml1-10 {
+  margin-left: -20px;
+}
+
 .ml-5 {
   margin-left: 5px !important;
 }
@@ -366,6 +372,15 @@ td, th {
 
 .ml-50 {
   margin-left: 50px;
+}
+.ml-150 {
+  margin-left: -150px;
+}
+.ml-220 {
+  margin-left: 200px;
+}
+.ml-250 {
+  margin-left: 250px;
 }
 
 .mr-0 {
@@ -2484,7 +2499,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*------------------------------------------------------------------------------------- Start Banner Area ------------*/
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../img/hero-bg.jpg) center;
+  background: url(../img/hero-bg.png) center;
   background-size: cover;
 }
 
@@ -2537,7 +2552,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-left .primary-btn {
-  background: #f8b600;
+  background: #8ac641;
+  border-radius: 10px;    
 }
 
 .banner-left .primary-btn:hover {
@@ -2709,44 +2725,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*--------------------------------------------------------- start price Area ------------*/
-/*.price-area {
+.price-area {
   background: url(../img/price-bg.png);
   background-size: cover;
 }
 
-.price-area .single-price {
-  background: #fff;
-  padding: 30px;
-}
-
-.price-area .single-price h4 {
-  text-align: center;
-  border-bottom: 1px solid #f8b600;
-  padding-bottom: 20px;
-}
-
-.price-area .single-price .price-list {
-  margin-top: 30px;
-}
-
-.price-area .single-price .price-list li {
-  margin-bottom: 10px;
-}
-
-.price-area .single-price .price-list li .price-btn {
-  background: #f9f9ff;
-  border: 1px solid #eee;
-  color: #222;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 5px 20px;
-}
-
-.price-area .single-price .price-list li .price-btn:hover {
-  border-color: #f8b600;
-  background: #f8b600;
-  color: #fff;
-}
 
 @media (max-width: 991px) {
   .price-area .single-price {
@@ -2758,7 +2741,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*------------------------------------------------------------ start other-issue Area ------------*/
-.single-other-issue .thumb {
+/*.single-other-issue .thumb {
   overflow: hidden;
 }
 
@@ -2790,7 +2773,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*------------------------------------------------------------------------- start testimonial area  -------------*/
-.testimonial-area {
+/*.testimonial-area {
   background-color: #f9f9ff;
 }
 
@@ -2860,8 +2843,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
-/*--------- end testimonial area  -------------*/
-/*--------- start home-about area  -------------*/
+/*---------------------------------------------- end testimonial area  -------------*/
+
+
+
+/*------------------------------------------ start home-about area  -------------*/
 .home-about-area .home-about-left {
   padding-left: 20%;
 }
@@ -2925,6 +2911,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------- end home-about area  -------------*/
+
+
+
+
+
 /*--------- start recent-blog Area -------------*/
 .recent-blog-area .owl-dots {
   text-align: center;
@@ -3032,7 +3023,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-banner {
-  background: url(../img/top-banner.jpg) center;
+  background: url(../img/top-banner.png) center;
   background-size: cover;
 }
 
@@ -4255,18 +4246,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-area {
   background: #04091e;
   padding-top: 100px;
+  align-items: center;
+  
 }
 
 .footer-area .footer-nav li {
   margin-top: 18px;
+  align-items: center;
 }
 
 .footer-area .footer-nav li a {
   color: #fff;
+  margin-left: 150px;
+  
 }
 
 .footer-area .footer-nav li a:hover {
   color: #f8b600;
+  
 }
 
 .footer-area .primary-btn {
@@ -4340,19 +4337,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 25px;
   font-size: 16px;
   font-weight: 600;
+
 }
+
 
 .copy-right-text i, .copy-right-text a {
   color: #f8b600;
+  
 }
 
 .instafeed {
   margin: -5px;
+  
 }
 
 .instafeed li {
   overflow: hidden;
   width: 25%;
+
 }
 
 .instafeed li img {
@@ -4361,6 +4363,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-social {
   text-align: right;
+
 }
 
 .footer-social a {
@@ -4374,6 +4377,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  
 }
 
 .footer-social a:hover i {
@@ -4392,6 +4396,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .footer-social {
     text-align: left;
     margin-top: 20px;
+    margin-left: 0%;
   }
 }
 
@@ -4408,6 +4413,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #777;
   padding-left: 20px;
   width: 80%;
+  
 }
 
 .single-footer-widget .bb-btn {
@@ -4421,6 +4427,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 960px) {
   .single-footer-widget .nw-btn {
     margin-top: 20px;
+    margin-left: 0%;
   }
   .single-footer-widget .newsletter {
     padding-bottom: 40px;
@@ -4515,8 +4522,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 40px;
   margin-top: 20px;
   border-top: 1px solid #333;
+  
 }
 
 .footer-text a, .footer-text i {
   color: #f8b600;
+  
 }
