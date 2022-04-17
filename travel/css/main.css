@@ -3023,10 +3023,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-banner {
-  background: url(../img/top-banner.png) center;
+  background: url(../img/packages/about-img3.jpg) center;
   background-size: cover;
-
 }
+
+
 
 .about-content {
   margin-top: 70px;
