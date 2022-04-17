@@ -3025,10 +3025,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .about-banner {
   background: url(../img/top-banner.png) center;
   background-size: cover;
-}
 
-.about-banner .overlay-bg {
-  background: rgba(4, 9, 30, 0.4);
 }
 
 .about-content {
@@ -3064,11 +3061,43 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  About Page Styles
 /* =================================== */
 /*-------- start about-info Style  -------------*/
-.about-info-area .info-left img {
+.img-fluid1 {
+  width: 100%;
+  
+}
+
+@media (max-width: 991px) {
+  .img-fluid1 {
+    margin-bottom: 30px;
+  }
+}
+
+.about-info-area .info-left {
   width: 100%;
 }
 
 @media (max-width: 991px) {
+  .about-info-area .info-left {
+    margin-bottom: 30px;
+  
+  }
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .img-fluid {
+    margin-bottom: 30px;
+  }
+}
+
+.about-info-area .info-left {
+  width: 100%;
+}
+
+@media (max-width: 2000px) {
   .about-info-area .info-left {
     margin-bottom: 30px;
   }
